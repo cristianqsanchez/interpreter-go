@@ -50,6 +50,8 @@ x + y;
 };
 
 let result = add(five, ten);
+!-/5*;
+5 < 10 > 5;
 `
 
     tests := []struct{
@@ -91,6 +93,18 @@ let result = add(five, ten);
       {token.COMMA, ","},
       {token.IDENT, "ten"},
       {token.RPAREN, ")"},
+      {token.SEMICOLON, ";"},
+      {token.BANG, "!"},
+      {token.MINUS, "-"},
+      {token.SLASH, "/"},
+      {token.INT, "5"},
+      {token.ASTERISK, "*"},
+      {token.SEMICOLON, ";"},
+      {token.INT, "5"},
+      {token.LT, "<"},
+      {token.INT, "10"},
+      {token.RT, ">"},
+      {token.INT, "5"},
       {token.SEMICOLON, ";"},
       {token.EOF, ""},
     }
