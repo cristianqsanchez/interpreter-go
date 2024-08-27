@@ -13,26 +13,26 @@ const (
 
   // identifiers + literals
   IDENT = "IDENT"
-  INT    = "INT"
+  INT   = "INT"
 
   // operators
-  ASSIGN = "="
-  PLUS   = "+"
-  MINUS   = "-"
-  BANG   = "!"
-  ASTERISK   = "*"
-  SLASH   = "/"
-  LT   = "<"
-  RT   = ">"
+  ASSIGN   = "="
+  PLUS     = "+"
+  MINUS    = "-"
+  BANG     = "!"
+  ASTERISK = "*"
+  SLASH    = "/"
+  LT       = "<"
+  RT       = ">"
 
   // delimiters
   COMMA     = ","
   SEMICOLON = ";"
 
-  LPAREN = "("
-  RPAREN = ")"
-  LBRACE = "{"
-  RBRACE = "}"
+  LPAREN    = "("
+  RPAREN    = ")"
+  LBRACE    = "{"
+  RBRACE    = "}"
 
   // keywords
   FUNCTION = "FUNCTION"
